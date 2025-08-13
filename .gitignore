@@ -1,0 +1,4 @@
+.env
+parsed_pdfs/**/*.md
+*.faiss
+*.pkl
