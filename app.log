@@ -1,0 +1,301 @@
+2025-06-20 15:24:08,425 - [-] - main - WARNING - No FAISS index found for collection: rfp_parsed
+2025-06-20 15:24:08,530 - [-] - main - WARNING - No FAISS index found for collection: response_parsed
+2025-06-20 15:55:22,618 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: Connection error.
+2025-06-20 15:55:22,922 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: Connection error.
+2025-06-20 15:55:22,927 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: Connection error.
+2025-06-20 16:09:47,291 - [-] - main - INFO - 开始创建 FAISS 索引，文档数量: 116
+2025-06-20 16:09:47,295 - [-] - main - INFO - 文本长度统计: 最小=44, 最大=4594, 平均=963
+2025-06-20 16:09:55,510 - [-] - main - INFO - 文档较多，分批处理以避免超时...
+2025-06-20 16:09:55,511 - [-] - main - INFO - 处理批次 1/24
+2025-06-20 16:09:56,185 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: Embeddings.create() got an unexpected keyword argument 'retry_delay'
+2025-06-20 16:09:56,190 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: Embeddings.create() got an unexpected keyword argument 'retry_delay'
+2025-06-20 16:09:56,193 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: Embeddings.create() got an unexpected keyword argument 'retry_delay'
+2025-06-20 16:13:43,242 - [-] - main - INFO - 开始创建 FAISS 索引，文档数量: 0
+2025-06-20 16:13:43,244 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: min() arg is an empty sequence
+2025-06-20 16:13:43,248 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: min() arg is an empty sequence
+2025-06-20 16:13:43,251 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: min() arg is an empty sequence
+2025-06-20 16:16:44,188 - [-] - main - INFO - 开始创建 FAISS 索引，文档数量: 116
+2025-06-20 16:16:44,191 - [-] - main - INFO - 文本长度统计: 最小=44, 最大=4594, 平均=963
+2025-06-20 16:17:34,960 - [-] - main - INFO - 文档较多，分批处理以避免超时...
+2025-06-20 16:17:50,242 - [-] - main - INFO - 处理批次 1/24
+2025-06-20 16:19:28,460 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: Connection error.
+2025-06-20 16:19:28,474 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: Connection error.
+2025-06-20 16:19:28,480 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: Connection error.
+2025-06-20 16:34:38,771 - [-] - main - INFO - 开始创建 FAISS 索引，文档数量: 116
+2025-06-20 16:34:38,774 - [-] - main - INFO - 文本长度统计: 最小=44, 最大=4594, 平均=963
+2025-06-20 16:34:49,337 - [-] - main - INFO - 文档较多，分批处理以避免超时...
+2025-06-20 16:34:49,338 - [-] - main - INFO - 处理批次 1/24
+2025-06-20 16:36:21,265 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: Connection error.
+2025-06-20 16:36:21,281 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: Connection error.
+2025-06-20 16:36:21,287 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: Connection error.
+2025-06-20 16:50:19,431 - [-] - main - INFO - 开始创建 FAISS 索引，文档数量: 116
+2025-06-20 16:50:19,434 - [-] - main - INFO - 文本长度统计: 最小=44, 最大=4594, 平均=963
+2025-06-20 16:50:19,435 - [-] - main - INFO - 文档较多，分批处理以避免超时...
+2025-06-20 16:50:23,909 - [-] - main - INFO - 处理批次 1/24
+2025-06-20 16:50:25,025 - [-] - main - ERROR - Error creating FAISS index for collection rfp_parsed: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '3aceed96-c59b-9f58-b496-ab88e873ad64', 'request_id': '3aceed96-c59b-9f58-b496-ab88e873ad64'}
+2025-06-20 16:50:25,034 - [-] - main - ERROR - Error parsing temp_rfp.pdf: Failed to create FAISS index: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '3aceed96-c59b-9f58-b496-ab88e873ad64', 'request_id': '3aceed96-c59b-9f58-b496-ab88e873ad64'}
+2025-06-20 16:50:25,038 - [-] - main - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '3aceed96-c59b-9f58-b496-ab88e873ad64', 'request_id': '3aceed96-c59b-9f58-b496-ab88e873ad64'}
+2025-06-20 17:00:38,058 - [-] - main - INFO - 开始创建 FAISS 索引，有效文档数量: 116 (原始: 116)
+2025-06-20 17:00:38,061 - [-] - main - INFO - 文本长度统计: 最小=42, 最大=4591, 平均=961
+2025-06-20 17:00:38,062 - [-] - main - INFO - 文档较多，分批处理以避免超时...
+2025-06-20 17:00:38,062 - [-] - main - INFO - 处理批次 1/39，文本数量: 3
+2025-06-20 17:01:00,189 - [-] - main - ERROR - 批次 1 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'a8dddc3d-069f-95e4-bfa0-029c924ce2e0', 'request_id': 'a8dddc3d-069f-95e4-bfa0-029c924ce2e0'}
+2025-06-20 17:01:00,191 - [-] - main - INFO - 处理批次 2/39，文本数量: 3
+2025-06-20 17:01:04,074 - [-] - main - ERROR - 批次 2 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '2bbc2498-49af-90ca-9fb9-a972a4d8474a', 'request_id': '2bbc2498-49af-90ca-9fb9-a972a4d8474a'}
+2025-06-20 17:01:04,075 - [-] - main - INFO - 处理批次 3/39，文本数量: 3
+2025-06-20 17:01:07,531 - [-] - main - ERROR - 批次 3 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '7b75fa79-7432-9860-904a-7ba83d875bc4', 'request_id': '7b75fa79-7432-9860-904a-7ba83d875bc4'}
+2025-06-20 17:01:07,532 - [-] - main - INFO - 处理批次 4/39，文本数量: 3
+2025-06-20 17:01:07,888 - [-] - main - ERROR - 批次 4 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'ee02bf27-0166-9a96-8718-5e0b5b305fe6', 'request_id': 'ee02bf27-0166-9a96-8718-5e0b5b305fe6'}
+2025-06-20 17:01:07,889 - [-] - main - INFO - 处理批次 5/39，文本数量: 3
+2025-06-20 17:01:08,069 - [-] - main - ERROR - 批次 5 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'ab9cc351-848a-936d-a152-3833fc986aff', 'request_id': 'ab9cc351-848a-936d-a152-3833fc986aff'}
+2025-06-20 17:01:08,070 - [-] - main - INFO - 处理批次 6/39，文本数量: 3
+2025-06-20 17:01:08,512 - [-] - main - ERROR - 批次 6 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'f6346635-1e46-9cc4-8d5d-898997e3585b', 'request_id': 'f6346635-1e46-9cc4-8d5d-898997e3585b'}
+2025-06-20 17:01:08,514 - [-] - main - INFO - 处理批次 7/39，文本数量: 3
+2025-06-20 17:01:08,841 - [-] - main - ERROR - 批次 7 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '60140831-0adb-9098-afb3-3a634ec8c063', 'request_id': '60140831-0adb-9098-afb3-3a634ec8c063'}
+2025-06-20 17:01:08,842 - [-] - main - INFO - 处理批次 8/39，文本数量: 3
+2025-06-20 17:01:09,320 - [-] - main - ERROR - 批次 8 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '742a6e0d-14ef-9b8b-af76-780c9e9715e7', 'request_id': '742a6e0d-14ef-9b8b-af76-780c9e9715e7'}
+2025-06-20 17:01:09,321 - [-] - main - INFO - 处理批次 9/39，文本数量: 3
+2025-06-20 17:01:09,669 - [-] - main - ERROR - 批次 9 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '271ab0b5-aff1-9e86-8781-d6fcd2ebba44', 'request_id': '271ab0b5-aff1-9e86-8781-d6fcd2ebba44'}
+2025-06-20 17:01:09,670 - [-] - main - INFO - 处理批次 10/39，文本数量: 3
+2025-06-20 17:01:10,228 - [-] - main - ERROR - 批次 10 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '01aa06cb-4f06-9860-aac3-69ee29a6bf43', 'request_id': '01aa06cb-4f06-9860-aac3-69ee29a6bf43'}
+2025-06-20 17:01:10,229 - [-] - main - INFO - 处理批次 11/39，文本数量: 3
+2025-06-20 17:01:10,742 - [-] - main - ERROR - 批次 11 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'a42b2ef1-98a2-9df0-ab1e-af6378d63596', 'request_id': 'a42b2ef1-98a2-9df0-ab1e-af6378d63596'}
+2025-06-20 17:01:10,743 - [-] - main - INFO - 处理批次 12/39，文本数量: 3
+2025-06-20 17:01:11,188 - [-] - main - ERROR - 批次 12 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '01b3e999-de8d-9ca8-9ccf-7bb4fbffb250', 'request_id': '01b3e999-de8d-9ca8-9ccf-7bb4fbffb250'}
+2025-06-20 17:01:11,189 - [-] - main - INFO - 处理批次 13/39，文本数量: 3
+2025-06-20 17:01:11,705 - [-] - main - ERROR - 批次 13 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '6fe0c796-51de-99d2-bf88-d0a5db352e44', 'request_id': '6fe0c796-51de-99d2-bf88-d0a5db352e44'}
+2025-06-20 17:01:11,706 - [-] - main - INFO - 处理批次 14/39，文本数量: 3
+2025-06-20 17:01:12,073 - [-] - main - ERROR - 批次 14 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '781da531-d667-9570-80f1-6ed9882d743a', 'request_id': '781da531-d667-9570-80f1-6ed9882d743a'}
+2025-06-20 17:01:12,074 - [-] - main - INFO - 处理批次 15/39，文本数量: 3
+2025-06-20 17:01:12,557 - [-] - main - ERROR - 批次 15 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '5390dd01-0cae-9cf2-b98f-26a8aa2c9ce4', 'request_id': '5390dd01-0cae-9cf2-b98f-26a8aa2c9ce4'}
+2025-06-20 17:01:12,558 - [-] - main - INFO - 处理批次 16/39，文本数量: 3
+2025-06-20 17:01:12,761 - [-] - main - ERROR - 批次 16 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'aa0d3c8c-a342-9b10-a894-0c31a59550c6', 'request_id': 'aa0d3c8c-a342-9b10-a894-0c31a59550c6'}
+2025-06-20 17:01:12,762 - [-] - main - INFO - 处理批次 17/39，文本数量: 3
+2025-06-20 17:01:13,188 - [-] - main - ERROR - 批次 17 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '33b21a00-c645-989e-8d20-2ec611f0310b', 'request_id': '33b21a00-c645-989e-8d20-2ec611f0310b'}
+2025-06-20 17:01:13,189 - [-] - main - INFO - 处理批次 18/39，文本数量: 3
+2025-06-20 17:01:13,606 - [-] - main - ERROR - 批次 18 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'cc10fe79-2a67-9277-b904-220b317cbecc', 'request_id': 'cc10fe79-2a67-9277-b904-220b317cbecc'}
+2025-06-20 17:01:13,607 - [-] - main - INFO - 处理批次 19/39，文本数量: 3
+2025-06-20 17:01:14,165 - [-] - main - ERROR - 批次 19 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '57f8da15-2282-93e3-8a41-bd2ec98cf226', 'request_id': '57f8da15-2282-93e3-8a41-bd2ec98cf226'}
+2025-06-20 17:01:14,166 - [-] - main - INFO - 处理批次 20/39，文本数量: 3
+2025-06-20 17:01:14,632 - [-] - main - ERROR - 批次 20 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'e0d700bd-a8d2-93ad-925a-b85ec5abc97c', 'request_id': 'e0d700bd-a8d2-93ad-925a-b85ec5abc97c'}
+2025-06-20 17:01:14,634 - [-] - main - INFO - 处理批次 21/39，文本数量: 3
+2025-06-20 17:01:15,019 - [-] - main - ERROR - 批次 21 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '022c72d9-8946-962c-80c5-9c03b29aba2d', 'request_id': '022c72d9-8946-962c-80c5-9c03b29aba2d'}
+2025-06-20 17:01:15,020 - [-] - main - INFO - 处理批次 22/39，文本数量: 3
+2025-06-20 17:01:15,482 - [-] - main - ERROR - 批次 22 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '7ee87f3b-8545-9e19-b313-c70e09675d84', 'request_id': '7ee87f3b-8545-9e19-b313-c70e09675d84'}
+2025-06-20 17:01:15,483 - [-] - main - INFO - 处理批次 23/39，文本数量: 3
+2025-06-20 17:01:15,940 - [-] - main - ERROR - 批次 23 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '19a5ed6e-d2c3-9639-8c5f-11a4fe0e3434', 'request_id': '19a5ed6e-d2c3-9639-8c5f-11a4fe0e3434'}
+2025-06-20 17:01:15,941 - [-] - main - INFO - 处理批次 24/39，文本数量: 3
+2025-06-20 17:01:16,652 - [-] - main - ERROR - 批次 24 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '40e805a1-0dd8-9c76-999b-5009a996ed33', 'request_id': '40e805a1-0dd8-9c76-999b-5009a996ed33'}
+2025-06-20 17:01:16,653 - [-] - main - INFO - 处理批次 25/39，文本数量: 3
+2025-06-20 17:01:17,237 - [-] - main - ERROR - 批次 25 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '46fd1986-09f8-91ab-91b6-8a220878d358', 'request_id': '46fd1986-09f8-91ab-91b6-8a220878d358'}
+2025-06-20 17:01:17,238 - [-] - main - INFO - 处理批次 26/39，文本数量: 3
+2025-06-20 17:01:17,457 - [-] - main - ERROR - 批次 26 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'f36d7f0f-fe8a-91ac-ac9f-43d1051bf5da', 'request_id': 'f36d7f0f-fe8a-91ac-ac9f-43d1051bf5da'}
+2025-06-20 17:01:17,458 - [-] - main - INFO - 处理批次 27/39，文本数量: 3
+2025-06-20 17:01:17,801 - [-] - main - ERROR - 批次 27 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '6bad326f-61f3-979d-9058-93119500980c', 'request_id': '6bad326f-61f3-979d-9058-93119500980c'}
+2025-06-20 17:01:17,802 - [-] - main - INFO - 处理批次 28/39，文本数量: 3
+2025-06-20 17:01:17,927 - [-] - main - ERROR - 批次 28 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '247bdf61-694f-900d-a4dd-c25e12d77d67', 'request_id': '247bdf61-694f-900d-a4dd-c25e12d77d67'}
+2025-06-20 17:01:17,928 - [-] - main - INFO - 处理批次 29/39，文本数量: 3
+2025-06-20 17:01:18,122 - [-] - main - ERROR - 批次 29 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '269d67ee-c45d-942e-8660-e4f53531618d', 'request_id': '269d67ee-c45d-942e-8660-e4f53531618d'}
+2025-06-20 17:01:18,122 - [-] - main - INFO - 处理批次 30/39，文本数量: 3
+2025-06-20 17:01:18,476 - [-] - main - ERROR - 批次 30 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '8a5dc7f0-2160-99b7-b707-90bbd20734fc', 'request_id': '8a5dc7f0-2160-99b7-b707-90bbd20734fc'}
+2025-06-20 17:01:18,477 - [-] - main - INFO - 处理批次 31/39，文本数量: 3
+2025-06-20 17:01:18,884 - [-] - main - ERROR - 批次 31 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '0c247172-b4ce-91d7-801c-310ebf2fe739', 'request_id': '0c247172-b4ce-91d7-801c-310ebf2fe739'}
+2025-06-20 17:01:18,885 - [-] - main - INFO - 处理批次 32/39，文本数量: 3
+2025-06-20 17:01:19,250 - [-] - main - ERROR - 批次 32 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'e4366f45-819e-92da-b882-96e25c23e460', 'request_id': 'e4366f45-819e-92da-b882-96e25c23e460'}
+2025-06-20 17:01:19,251 - [-] - main - INFO - 处理批次 33/39，文本数量: 3
+2025-06-20 17:01:19,502 - [-] - main - ERROR - 批次 33 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '9f6d704b-ebd2-9c77-b3c9-3e824e900372', 'request_id': '9f6d704b-ebd2-9c77-b3c9-3e824e900372'}
+2025-06-20 17:01:19,503 - [-] - main - INFO - 处理批次 34/39，文本数量: 3
+2025-06-20 17:01:19,766 - [-] - main - ERROR - 批次 34 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'bf3be905-df56-90b3-8ed7-e52218fa7a1c', 'request_id': 'bf3be905-df56-90b3-8ed7-e52218fa7a1c'}
+2025-06-20 17:01:19,768 - [-] - main - INFO - 处理批次 35/39，文本数量: 3
+2025-06-20 17:01:20,203 - [-] - main - ERROR - 批次 35 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '56af64d4-35c4-90ee-92a4-0eb48ad369a6', 'request_id': '56af64d4-35c4-90ee-92a4-0eb48ad369a6'}
+2025-06-20 17:01:20,204 - [-] - main - INFO - 处理批次 36/39，文本数量: 3
+2025-06-20 17:01:20,502 - [-] - main - ERROR - 批次 36 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'c04129e1-1db2-9a77-8c5f-297642f45fdc', 'request_id': 'c04129e1-1db2-9a77-8c5f-297642f45fdc'}
+2025-06-20 17:01:20,503 - [-] - main - INFO - 处理批次 37/39，文本数量: 3
+2025-06-20 17:01:20,775 - [-] - main - ERROR - 批次 37 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': '7939a5f8-d7a9-94af-bfc3-c756316aa106', 'request_id': '7939a5f8-d7a9-94af-bfc3-c756316aa106'}
+2025-06-20 17:01:20,776 - [-] - main - INFO - 处理批次 38/39，文本数量: 3
+2025-06-20 17:01:21,109 - [-] - main - ERROR - 批次 38 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'e16f928b-400b-9cf2-91fb-8e74f8236d25', 'request_id': 'e16f928b-400b-9cf2-91fb-8e74f8236d25'}
+2025-06-20 17:01:21,110 - [-] - main - INFO - 处理批次 39/39，文本数量: 2
+2025-06-20 17:01:21,396 - [-] - main - ERROR - 批次 39 处理失败: Error code: 400 - {'error': {'code': 'InvalidParameter', 'param': None, 'message': '<400> InternalError.Algo.InvalidParameter: Value error, contents is neither str nor list of str.: input.contents', 'type': 'InvalidParameter'}, 'id': 'e155487c-9058-99e5-98eb-02eae27d6b71', 'request_id': 'e155487c-9058-99e5-98eb-02eae27d6b71'}
+2025-06-20 17:07:13,328 - [-] - main - ERROR - DashScope embeddings 失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. ', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'cf7d236e-06fb-9fe0-b4ac-92fc8b23e693'}
+2025-06-20 17:14:31,445 - [-] - main - INFO - 开始创建 FAISS 索引，有效文档数量: 116 (原始: 116)
+2025-06-20 17:14:31,445 - [-] - main - INFO - 文本长度统计: 最小=42, 最大=4591, 平均=961
+2025-06-20 17:14:31,446 - [-] - main - INFO - 使用自定义 DashScope embeddings 创建向量...
+2025-06-20 17:14:31,446 - [-] - main - INFO - 处理批次 1/24，文本数量: 5
+2025-06-20 17:14:32,215 - [-] - main - INFO - 批次 1 处理成功，获得 5 个向量
+2025-06-20 17:14:32,216 - [-] - main - INFO - 处理批次 2/24，文本数量: 5
+2025-06-20 17:14:32,633 - [-] - main - INFO - 批次 2 处理成功，获得 5 个向量
+2025-06-20 17:14:32,633 - [-] - main - INFO - 处理批次 3/24，文本数量: 5
+2025-06-20 17:14:33,051 - [-] - main - INFO - 批次 3 处理成功，获得 5 个向量
+2025-06-20 17:14:33,052 - [-] - main - INFO - 处理批次 4/24，文本数量: 5
+2025-06-20 17:14:33,369 - [-] - main - INFO - 批次 4 处理成功，获得 5 个向量
+2025-06-20 17:14:33,370 - [-] - main - INFO - 处理批次 5/24，文本数量: 5
+2025-06-20 17:14:33,790 - [-] - main - INFO - 批次 5 处理成功，获得 5 个向量
+2025-06-20 17:14:33,790 - [-] - main - INFO - 处理批次 6/24，文本数量: 5
+2025-06-20 17:14:34,227 - [-] - main - INFO - 批次 6 处理成功，获得 5 个向量
+2025-06-20 17:14:34,227 - [-] - main - INFO - 处理批次 7/24，文本数量: 5
+2025-06-20 17:14:34,565 - [-] - main - INFO - 批次 7 处理成功，获得 5 个向量
+2025-06-20 17:14:34,566 - [-] - main - INFO - 处理批次 8/24，文本数量: 5
+2025-06-20 17:14:35,069 - [-] - main - INFO - 批次 8 处理成功，获得 5 个向量
+2025-06-20 17:14:35,069 - [-] - main - INFO - 处理批次 9/24，文本数量: 5
+2025-06-20 17:14:35,348 - [-] - main - INFO - 批次 9 处理成功，获得 5 个向量
+2025-06-20 17:14:35,348 - [-] - main - INFO - 处理批次 10/24，文本数量: 5
+2025-06-20 17:14:35,695 - [-] - main - INFO - 批次 10 处理成功，获得 5 个向量
+2025-06-20 17:14:35,695 - [-] - main - INFO - 处理批次 11/24，文本数量: 5
+2025-06-20 17:14:35,988 - [-] - main - INFO - 批次 11 处理成功，获得 5 个向量
+2025-06-20 17:14:35,989 - [-] - main - INFO - 处理批次 12/24，文本数量: 5
+2025-06-20 17:14:36,517 - [-] - main - INFO - 批次 12 处理成功，获得 5 个向量
+2025-06-20 17:14:36,517 - [-] - main - INFO - 处理批次 13/24，文本数量: 5
+2025-06-20 17:14:36,929 - [-] - main - INFO - 批次 13 处理成功，获得 5 个向量
+2025-06-20 17:14:36,929 - [-] - main - INFO - 处理批次 14/24，文本数量: 5
+2025-06-20 17:14:37,270 - [-] - main - INFO - 批次 14 处理成功，获得 5 个向量
+2025-06-20 17:14:37,270 - [-] - main - INFO - 处理批次 15/24，文本数量: 5
+2025-06-20 17:14:37,586 - [-] - main - INFO - 批次 15 处理成功，获得 5 个向量
+2025-06-20 17:14:37,586 - [-] - main - INFO - 处理批次 16/24，文本数量: 5
+2025-06-20 17:14:37,847 - [-] - main - INFO - 批次 16 处理成功，获得 5 个向量
+2025-06-20 17:14:37,847 - [-] - main - INFO - 处理批次 17/24，文本数量: 5
+2025-06-20 17:14:38,179 - [-] - main - INFO - 批次 17 处理成功，获得 5 个向量
+2025-06-20 17:14:38,180 - [-] - main - INFO - 处理批次 18/24，文本数量: 5
+2025-06-20 17:14:38,572 - [-] - main - INFO - 批次 18 处理成功，获得 5 个向量
+2025-06-20 17:14:38,573 - [-] - main - INFO - 处理批次 19/24，文本数量: 5
+2025-06-20 17:14:38,860 - [-] - main - INFO - 批次 19 处理成功，获得 5 个向量
+2025-06-20 17:14:38,861 - [-] - main - INFO - 处理批次 20/24，文本数量: 5
+2025-06-20 17:14:39,158 - [-] - main - INFO - 批次 20 处理成功，获得 5 个向量
+2025-06-20 17:14:39,159 - [-] - main - INFO - 处理批次 21/24，文本数量: 5
+2025-06-20 17:14:39,409 - [-] - main - INFO - 批次 21 处理成功，获得 5 个向量
+2025-06-20 17:14:39,410 - [-] - main - INFO - 处理批次 22/24，文本数量: 5
+2025-06-20 17:14:39,801 - [-] - main - INFO - 批次 22 处理成功，获得 5 个向量
+2025-06-20 17:14:39,801 - [-] - main - INFO - 处理批次 23/24，文本数量: 5
+2025-06-20 17:14:40,048 - [-] - main - INFO - 批次 23 处理成功，获得 5 个向量
+2025-06-20 17:14:40,048 - [-] - main - INFO - 处理批次 24/24，文本数量: 1
+2025-06-20 17:14:40,215 - [-] - main - INFO - 批次 24 处理成功，获得 1 个向量
+2025-06-20 17:14:40,216 - [-] - main - INFO - 成功处理 116 个文档，开始创建 FAISS 索引...
+2025-06-20 17:14:40,427 - [-] - main - INFO - Created new FAISS index for collection: rfp_parsed
+2025-06-20 17:15:14,262 - [-] - main - INFO - 开始创建 FAISS 索引，有效文档数量: 116 (原始: 116)
+2025-06-20 17:15:14,263 - [-] - main - INFO - 文本长度统计: 最小=42, 最大=4591, 平均=961
+2025-06-20 17:15:14,263 - [-] - main - INFO - 使用自定义 DashScope embeddings 创建向量...
+2025-06-20 17:15:14,263 - [-] - main - INFO - 处理批次 1/24，文本数量: 5
+2025-06-20 17:15:14,982 - [-] - main - INFO - 批次 1 处理成功，获得 5 个向量
+2025-06-20 17:15:14,993 - [-] - main - INFO - 处理批次 2/24，文本数量: 5
+2025-06-20 17:15:15,498 - [-] - main - INFO - 批次 2 处理成功，获得 5 个向量
+2025-06-20 17:15:15,498 - [-] - main - INFO - 处理批次 3/24，文本数量: 5
+2025-06-20 17:15:15,766 - [-] - main - INFO - 批次 3 处理成功，获得 5 个向量
+2025-06-20 17:15:15,766 - [-] - main - INFO - 处理批次 4/24，文本数量: 5
+2025-06-20 17:15:16,308 - [-] - main - INFO - 批次 4 处理成功，获得 5 个向量
+2025-06-20 17:15:16,308 - [-] - main - INFO - 处理批次 5/24，文本数量: 5
+2025-06-20 17:15:16,719 - [-] - main - INFO - 批次 5 处理成功，获得 5 个向量
+2025-06-20 17:15:16,719 - [-] - main - INFO - 处理批次 6/24，文本数量: 5
+2025-06-20 17:15:17,120 - [-] - main - INFO - 批次 6 处理成功，获得 5 个向量
+2025-06-20 17:15:17,120 - [-] - main - INFO - 处理批次 7/24，文本数量: 5
+2025-06-20 17:15:17,444 - [-] - main - INFO - 批次 7 处理成功，获得 5 个向量
+2025-06-20 17:15:17,444 - [-] - main - INFO - 处理批次 8/24，文本数量: 5
+2025-06-20 17:15:17,867 - [-] - main - INFO - 批次 8 处理成功，获得 5 个向量
+2025-06-20 17:15:17,910 - [-] - main - INFO - 处理批次 9/24，文本数量: 5
+2025-06-20 17:15:18,198 - [-] - main - INFO - 批次 9 处理成功，获得 5 个向量
+2025-06-20 17:15:18,198 - [-] - main - INFO - 处理批次 10/24，文本数量: 5
+2025-06-20 17:15:18,465 - [-] - main - INFO - 批次 10 处理成功，获得 5 个向量
+2025-06-20 17:15:18,466 - [-] - main - INFO - 处理批次 11/24，文本数量: 5
+2025-06-20 17:15:18,889 - [-] - main - INFO - 批次 11 处理成功，获得 5 个向量
+2025-06-20 17:15:18,890 - [-] - main - INFO - 处理批次 12/24，文本数量: 5
+2025-06-20 17:15:19,308 - [-] - main - INFO - 批次 12 处理成功，获得 5 个向量
+2025-06-20 17:15:19,309 - [-] - main - INFO - 处理批次 13/24，文本数量: 5
+2025-06-20 17:15:19,846 - [-] - main - INFO - 批次 13 处理成功，获得 5 个向量
+2025-06-20 17:15:19,846 - [-] - main - INFO - 处理批次 14/24，文本数量: 5
+2025-06-20 17:15:20,217 - [-] - main - INFO - 批次 14 处理成功，获得 5 个向量
+2025-06-20 17:15:20,217 - [-] - main - INFO - 处理批次 15/24，文本数量: 5
+2025-06-20 17:15:20,537 - [-] - main - INFO - 批次 15 处理成功，获得 5 个向量
+2025-06-20 17:15:20,537 - [-] - main - INFO - 处理批次 16/24，文本数量: 5
+2025-06-20 17:15:21,080 - [-] - main - INFO - 批次 16 处理成功，获得 5 个向量
+2025-06-20 17:15:21,081 - [-] - main - INFO - 处理批次 17/24，文本数量: 5
+2025-06-20 17:15:21,535 - [-] - main - INFO - 批次 17 处理成功，获得 5 个向量
+2025-06-20 17:15:21,536 - [-] - main - INFO - 处理批次 18/24，文本数量: 5
+2025-06-20 17:15:21,799 - [-] - main - INFO - 批次 18 处理成功，获得 5 个向量
+2025-06-20 17:15:21,799 - [-] - main - INFO - 处理批次 19/24，文本数量: 5
+2025-06-20 17:15:22,072 - [-] - main - INFO - 批次 19 处理成功，获得 5 个向量
+2025-06-20 17:15:22,072 - [-] - main - INFO - 处理批次 20/24，文本数量: 5
+2025-06-20 17:15:22,475 - [-] - main - INFO - 批次 20 处理成功，获得 5 个向量
+2025-06-20 17:15:22,476 - [-] - main - INFO - 处理批次 21/24，文本数量: 5
+2025-06-20 17:15:22,787 - [-] - main - INFO - 批次 21 处理成功，获得 5 个向量
+2025-06-20 17:15:22,787 - [-] - main - INFO - 处理批次 22/24，文本数量: 5
+2025-06-20 17:15:23,161 - [-] - main - INFO - 批次 22 处理成功，获得 5 个向量
+2025-06-20 17:15:23,161 - [-] - main - INFO - 处理批次 23/24，文本数量: 5
+2025-06-20 17:15:23,420 - [-] - main - INFO - 批次 23 处理成功，获得 5 个向量
+2025-06-20 17:15:23,420 - [-] - main - INFO - 处理批次 24/24，文本数量: 1
+2025-06-20 17:15:23,518 - [-] - main - INFO - 批次 24 处理成功，获得 1 个向量
+2025-06-20 17:15:23,518 - [-] - main - INFO - 成功处理 116 个文档，开始创建 FAISS 索引...
+2025-06-20 17:15:23,644 - [-] - main - INFO - Created new FAISS index for collection: response_parsed
+2025-06-20 17:17:59,047 - [-] - main - INFO - Chat query processed successfully: 22...
+2025-06-20 17:22:39,172 - [-] - main - INFO - Chat query processed successfully: 响应中包含什么内容...
+2025-06-20 17:23:40,014 - [-] - main - INFO - Chat query processed successfully: 投标文件对招标文件响应是否全面...
+2025-06-20 17:25:22,411 - [-] - main - INFO - Chat query processed successfully: 招标文件中包括什么条目...
+2025-06-20 17:27:30,473 - [-] - main - INFO - Chat query processed successfully: 指出本招标文件中具体的投标人须知...
+2025-06-20 17:28:50,185 - [-] - main - INFO - Chat query processed successfully: 指出本投标文件中对招标文件相应条目的响应，使用md给出结果...
+2025-06-20 17:29:46,122 - [-] - main - INFO - Chat query processed successfully: 你是谁，十个字内回答...
+2025-06-20 17:30:01,383 - [-] - main - INFO - Chat query processed successfully: 你是谁，100字以内...
+2025-06-20 17:31:55,358 - [-] - main - INFO - Chat query processed successfully: 2233是谁...
+2025-06-20 17:42:46,137 - [-] - main - INFO - Chat query processed successfully: **服务承诺** - 招标文件要求：格式自拟。 - 响应情况：已提供服务承诺，符合招标文件要求...
+2025-06-20 17:43:04,411 - [-] - main - INFO - Chat query processed successfully: 给出服务承诺具体内容...
+2025-06-20 17:44:04,831 - [-] - main - INFO - Chat query processed successfully: 说说报价表响应了招标文件中的哪些内容...
+2025-06-20 17:45:50,858 - [-] - main - INFO - Chat query processed successfully: 输出已经与招标文件中对应的内容...
+2025-08-13 16:19:38,967 - [-] - main - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-08-13 16:20:55,111 - [-] - main - INFO - ��ʼ���� FAISS ��������Ч�ĵ�����: 116 (ԭʼ: 116)
+2025-08-13 16:20:55,112 - [-] - main - INFO - �ı�����ͳ��: ��С=42, ���=4213, ƽ��=915
+2025-08-13 16:20:55,112 - [-] - main - INFO - ʹ���Զ��� DashScope embeddings ��������...
+2025-08-13 16:20:55,113 - [-] - main - INFO - �������� 1/24���ı�����: 5
+2025-08-13 16:20:57,903 - [-] - main - INFO - ���� 1 �����ɹ������ 5 ������
+2025-08-13 16:20:57,904 - [-] - main - INFO - �������� 2/24���ı�����: 5
+2025-08-13 16:20:58,281 - [-] - main - INFO - ���� 2 �����ɹ������ 5 ������
+2025-08-13 16:20:58,282 - [-] - main - INFO - �������� 3/24���ı�����: 5
+2025-08-13 16:20:58,568 - [-] - main - INFO - ���� 3 �����ɹ������ 5 ������
+2025-08-13 16:20:58,568 - [-] - main - INFO - �������� 4/24���ı�����: 5
+2025-08-13 16:20:59,032 - [-] - main - INFO - ���� 4 �����ɹ������ 5 ������
+2025-08-13 16:20:59,032 - [-] - main - INFO - �������� 5/24���ı�����: 5
+2025-08-13 16:20:59,344 - [-] - main - INFO - ���� 5 �����ɹ������ 5 ������
+2025-08-13 16:20:59,344 - [-] - main - INFO - �������� 6/24���ı�����: 5
+2025-08-13 16:21:00,013 - [-] - main - INFO - ���� 6 �����ɹ������ 5 ������
+2025-08-13 16:21:00,014 - [-] - main - INFO - �������� 7/24���ı�����: 5
+2025-08-13 16:21:00,388 - [-] - main - INFO - ���� 7 �����ɹ������ 5 ������
+2025-08-13 16:21:00,389 - [-] - main - INFO - �������� 8/24���ı�����: 5
+2025-08-13 16:21:00,975 - [-] - main - INFO - ���� 8 �����ɹ������ 5 ������
+2025-08-13 16:21:00,976 - [-] - main - INFO - �������� 9/24���ı�����: 5
+2025-08-13 16:21:01,409 - [-] - main - INFO - ���� 9 �����ɹ������ 5 ������
+2025-08-13 16:21:01,410 - [-] - main - INFO - �������� 10/24���ı�����: 5
+2025-08-13 16:21:01,829 - [-] - main - INFO - ���� 10 �����ɹ������ 5 ������
+2025-08-13 16:21:01,830 - [-] - main - INFO - �������� 11/24���ı�����: 5
+2025-08-13 16:21:02,215 - [-] - main - INFO - ���� 11 �����ɹ������ 5 ������
+2025-08-13 16:21:02,216 - [-] - main - INFO - �������� 12/24���ı�����: 5
+2025-08-13 16:21:02,501 - [-] - main - INFO - ���� 12 �����ɹ������ 5 ������
+2025-08-13 16:21:02,502 - [-] - main - INFO - �������� 13/24���ı�����: 5
+2025-08-13 16:21:02,803 - [-] - main - INFO - ���� 13 �����ɹ������ 5 ������
+2025-08-13 16:21:02,803 - [-] - main - INFO - �������� 14/24���ı�����: 5
+2025-08-13 16:21:03,174 - [-] - main - INFO - ���� 14 �����ɹ������ 5 ������
+2025-08-13 16:21:03,175 - [-] - main - INFO - �������� 15/24���ı�����: 5
+2025-08-13 16:21:03,560 - [-] - main - INFO - ���� 15 �����ɹ������ 5 ������
+2025-08-13 16:21:03,561 - [-] - main - INFO - �������� 16/24���ı�����: 5
+2025-08-13 16:21:03,952 - [-] - main - INFO - ���� 16 �����ɹ������ 5 ������
+2025-08-13 16:21:03,954 - [-] - main - INFO - �������� 17/24���ı�����: 5
+2025-08-13 16:21:04,177 - [-] - main - INFO - ���� 17 �����ɹ������ 5 ������
+2025-08-13 16:21:04,178 - [-] - main - INFO - �������� 18/24���ı�����: 5
+2025-08-13 16:21:04,447 - [-] - main - INFO - ���� 18 �����ɹ������ 5 ������
+2025-08-13 16:21:04,447 - [-] - main - INFO - �������� 19/24���ı�����: 5
+2025-08-13 16:21:04,834 - [-] - main - INFO - ���� 19 �����ɹ������ 5 ������
+2025-08-13 16:21:04,835 - [-] - main - INFO - �������� 20/24���ı�����: 5
+2025-08-13 16:21:05,257 - [-] - main - INFO - ���� 20 �����ɹ������ 5 ������
+2025-08-13 16:21:05,258 - [-] - main - INFO - �������� 21/24���ı�����: 5
+2025-08-13 16:21:05,756 - [-] - main - INFO - ���� 21 �����ɹ������ 5 ������
+2025-08-13 16:21:05,757 - [-] - main - INFO - �������� 22/24���ı�����: 5
+2025-08-13 16:21:06,030 - [-] - main - INFO - ���� 22 �����ɹ������ 5 ������
+2025-08-13 16:21:06,031 - [-] - main - INFO - �������� 23/24���ı�����: 5
+2025-08-13 16:21:06,483 - [-] - main - INFO - ���� 23 �����ɹ������ 5 ������
+2025-08-13 16:21:06,484 - [-] - main - INFO - �������� 24/24���ı�����: 1
+2025-08-13 16:21:06,643 - [-] - main - INFO - ���� 24 �����ɹ������ 1 ������
+2025-08-13 16:21:06,644 - [-] - main - INFO - �ɹ����� 116 ���ĵ�����ʼ���� FAISS ����...
+2025-08-13 16:21:07,390 - [-] - main - INFO - Created new FAISS index for collection: rfp_parsed
+2025-08-13 16:21:07,392 - [-] - main - INFO - Cleared FAISS index for collection: response_parsed
+2025-08-13 16:21:32,586 - [-] - main - INFO - ��ʼ���� FAISS ��������Ч�ĵ�����: 2 (ԭʼ: 2)
+2025-08-13 16:21:32,588 - [-] - main - INFO - �ı�����ͳ��: ��С=229, ���=829, ƽ��=529
+2025-08-13 16:21:32,589 - [-] - main - INFO - ʹ���Զ��� DashScope embeddings ��������...
+2025-08-13 16:21:32,590 - [-] - main - INFO - �������� 1/1���ı�����: 2
+2025-08-13 16:21:32,854 - [-] - main - INFO - ���� 1 �����ɹ������ 2 ������
+2025-08-13 16:21:32,855 - [-] - main - INFO - �ɹ����� 2 ���ĵ�����ʼ���� FAISS ����...
+2025-08-13 16:21:33,540 - [-] - main - INFO - Created new FAISS index for collection: response_parsed
+2025-08-13 16:49:49,318 - [-] - main - INFO - Chat query processed successfully: ���ҽ���...
