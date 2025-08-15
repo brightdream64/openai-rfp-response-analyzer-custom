@@ -412,32 +412,49 @@ Suggestions:
     def generate_insights(context: str) -> str:
         try:
             llm = get_llm()
+            # insight_prompt = f"""
+            # Based on the following documents:
+
+            # {context}
+
+            # Please provide a structured report with the following sections:
+
+            # 1. Executive Summary:
+            #    - Provide a concise overview of the main points from both the RFP and the Response.
+
+            # 2. RFP Requirements Checklist:
+            #    - List the critical requirements from the RFP.
+            #    - For each requirement, indicate whether it is addressed in the Response (Addressed/Partially Addressed/Not Addressed).
+
+            # 3. Key Insights:
+            #    - Bullet point the most critical insights derived from comparing the RFP and the Response.
+            #    - For each insight, provide a brief explanation of its significance.
+
+            # 4. Trends and Patterns:
+            #    - Identify and explain any common themes or patterns across both documents.
+
+            # 5. Comparative Analysis:
+            #    - Highlight notable differences between the RFP requirements and the Response.
+            #    - Identify any areas where the Response exceeds RFP expectations.
+            # """
+            
             insight_prompt = f"""
-            Based on the following documents:
-
+            基于以下文档:
             {context}
+            请提供以下各节的结构化报告：
+            1。执行摘要：
+            - 提供招标文档和响应的要点的简洁概述。
+            2。招标文档要求清单：
+            - 列出招标文档的关键要求。
+            - 对于每项要求，请指示是否在响应中解决了它（已回应 / 部分回应 / 未回应）。
+            3。关键见解：
+            - 用要点形式列出从 招标文档 与响应文件对比中得出的最关键见解。
+            - 对于每个见解，请简要说明其重要性。
+            5。比较分析：
+            - 突出招标文档 需求与响应文件之间的显著差异。
+            - 指出响应文件在哪些方面超出了招标文档的预期。
 
-            Please provide a structured report with the following sections:
-
-            1. Executive Summary:
-               - Provide a concise overview of the main points from both the RFP and the Response.
-
-            2. RFP Requirements Checklist:
-               - List the critical requirements from the RFP.
-               - For each requirement, indicate whether it is addressed in the Response (Addressed/Partially Addressed/Not Addressed).
-
-            3. Key Insights:
-               - Bullet point the most critical insights derived from comparing the RFP and the Response.
-               - For each insight, provide a brief explanation of its significance.
-
-            4. Trends and Patterns:
-               - Identify and explain any common themes or patterns across both documents.
-
-            5. Comparative Analysis:
-               - Highlight notable differences between the RFP requirements and the Response.
-               - Identify any areas where the Response exceeds RFP expectations.
             """
-
             insights = llm.invoke(insight_prompt)
             return insights.content
         except Exception as e:
@@ -450,7 +467,7 @@ class ReportFormatter:
     def format_report(raw_data: str) -> str:
         try:
             prompt = f"""
-            Format the following raw data into a well-structured HTML report:
+            将以下原始数据格式化为结构良好的HTML报告:
 
             {raw_data}
 
@@ -613,12 +630,12 @@ def generate_report():
         raw_insights = analyzer.generate_insights(f"RFP Content:\n{rfp_content}\n\nResponse Content:\n{response_content}")
 
         raw_report = f"""
-        # RFP and Response Analysis Report
+        # 招标文件与投标文件响应情况分析
 
-        ## Part 1: Gap Analysis
+        ## Part 1: 差距分析
         {raw_analysis}
 
-        ## Part 2: Detailed Insights
+        ## Part 2: 详细见解
         {raw_insights}
         """
 

@@ -2,3 +2,5 @@
 parsed_pdfs/**/*.md
 *.faiss
 *.pkl
+*.pdf
+*.log
